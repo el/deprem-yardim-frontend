@@ -12,25 +12,25 @@ const MapControls: React.FC = () => {
         position="bottomleft"
         title="Layers"
         onClick={() => {}}
-        icon="stack-line.svg"
+        icon="/icons/stack-line.svg"
       />
       <ButtonControl
         position="topright"
         title="Disaster Survivors"
         onClick={() => {}}
-        icon="stack-line.svg"
+        icon="/icons/stack-line.svg"
       />
       <ButtonControl
         position="topright"
         title="Demands"
         onClick={() => {}}
-        icon="stack-line.svg"
+        icon="/icons/stack-line.svg"
       />
       <ButtonControl
         position="topright"
         title="Services"
         onClick={() => {}}
-        icon="stack-line.svg"
+        icon="/icons/stack-line.svg"
       />
       <AttributionControl />
       <Control position="bottomright">
@@ -47,7 +47,7 @@ const MapControls: React.FC = () => {
         position="bottomright"
         title="Language"
         onClick={() => {}}
-        icon="stack-line.svg"
+        icon="/icons/stack-line.svg"
       />
     </>
   );
