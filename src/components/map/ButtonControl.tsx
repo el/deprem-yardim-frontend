@@ -12,7 +12,7 @@ const ButtonControl = ({ title, position, icon, onClick }: Props) => {
   return (
     <Control position={position} container={{ className: "leaflet-bar" }}>
       <a onClick={onClick}>
-        <Image alt={title} src={icon} />
+        <Image alt={title} src={icon} width="32" height="32" />
       </a>
     </Control>
   );
